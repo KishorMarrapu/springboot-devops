@@ -7,6 +7,6 @@ spec:
   selector:
     app: springboot-app
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8094
+      targetPort: 8094
       nodePort: 30080
