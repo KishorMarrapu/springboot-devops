@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	 @GetMapping("/hello")
 	    public String hello() {
-	        return "Spring Boot DevOps App is Running!";
+	        return "Spring Boot DevOps App is Running..!";
 	    }
 }
